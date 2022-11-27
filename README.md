@@ -15,7 +15,7 @@ it2s-json-broker:
 - Fixed SAEMs intermediary UPER decoding of multiple applicationDataSams
 
 
-## 30 SET/22 - 30 OCT/22
+## 30 SET/22 - 31 OCT/22
 it2s-mobile-app: 
 - Screen para visualização do estado dos sensores utilizados e devidas traduções 
 - Fixes para as SVSMs - Adaptação total das mensagens para o novo formato imposto pelo jer_encoder 
