@@ -4,6 +4,20 @@ This repo contains all the documents related to the making of my master thesis.
 [See on Overleaf](https://www.overleaf.com/read/kgnwtrzpwtpt)
 
 # Work reported:
+## 30 NOV/22 - 31 DEZ/22
+it2s-mobile-app:
+- custom colors for the user's marker
+- cams set the userRegion and refresh interval is now 150ms
+- fix for SAEMs where the tolling zones were not displayed correctly
+- Full, user mode context dependent, message history!
+
+Help writing a paper about sensor data collection.
+Pre-Dissertation writing.                  });
+
+- 
+
+
+
 ## 31 OCT/22 - 30 NOV/22
 it2s-mobile-app:
 - Updated message format of OVSM
