@@ -4,7 +4,42 @@ This repo contains all the documents related to the making of my master thesis.
 [See on Overleaf](https://www.overleaf.com/read/kgnwtrzpwtpt)
 
 # Work reported:
-## 31 JUL/22 - 31 SET/22
+## 30 NOV/22 - 31 DEZ/22
+it2s-mobile-app:
+- custom colors for the user's marker
+- cams set the userRegion and refresh interval is now 150ms
+- fix for SAEMs where the tolling zones were not displayed correctly
+- Full, user mode context dependent, message history!
+
+Help writing a paper about sensor data collection.
+Pre-Dissertation writing.                  });
+
+- 
+
+
+
+## 31 OCT/22 - 30 NOV/22
+it2s-mobile-app:
+- Updated message format of OVSM
+- Introduced the light sensor 
+- Screen dedicated to sensors
+- Message History (for denms)
+
+it2s-json-broker:
+- Fixed SAEMs intermediary UPER decoding of multiple applicationDataSams
+
+
+## 30 SET/22 - 31 OCT/22
+it2s-mobile-app: 
+- Screen para visualização do estado dos sensores utilizados e devidas traduções 
+- Fixes para as SVSMs - Adaptação total das mensagens para o novo formato imposto pelo jer_encoder 
+- Adicionadas SAEMs e TPMs it2s-tms: - Código adaptado para receber e usar o novo formato imposto pelo jer_encoder
+
+it2s-json-broker: 
+- SAEMs e TPMs adicionadas 
+- Removidos temp fixes 
+
+## 31 JUL/22 - 30 SET/22
 
 it2s-json-broker: 
 - SAEMs e TPMs adicionadas
