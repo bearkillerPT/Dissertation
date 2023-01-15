@@ -3,6 +3,11 @@ This repo contains all the documents related to the making of my master thesis.
 
 [See on Overleaf](https://www.overleaf.com/read/kgnwtrzpwtpt)
 
+# Pre-Dissertation
+January 20 marks the deadline deadline for the pre-dissertation.
+With it the first 2 chapters should be "ready" and a gantt diagram was built about the work that has and will be done in generic topics:
+![Work](./Projected_work.png)
+
 # Work reported:
 ## 30 NOV/22 - 31 DEZ/22
 it2s-mobile-app:
@@ -11,12 +16,8 @@ it2s-mobile-app:
 - fix for SAEMs where the tolling zones were not displayed correctly
 - Full, user mode context dependent, message history!
 
-Help writing a paper about sensor data collection.
+- Helped writing a paper about sensor data collection.
 Pre-Dissertation writing.                  });
-
-- 
-
-
 
 ## 31 OCT/22 - 30 NOV/22
 it2s-mobile-app:

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-10-01" view-index="0" gantt-divider-location="388" resource-divider-location="300" version="3.2.3230" locale="pt_PT">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="221" order="0"/>
+        <field id="tpd4" name="Data de início" width="83" order="1"/>
+        <field id="tpd5" name="Data de fim" width="83" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Função padrão" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="CCAM Messages" meeting="false" start="2022-09-12" duration="62" complete="0" expand="true"/>
+        <task id="3" name="SPVSM/OVSM Messages" color="#8cb6ce" meeting="false" start="2022-10-31" duration="27" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="V2X Tolling" meeting="false" start="2022-11-07" duration="40" complete="0" expand="true"/>
+        <task id="6" name="CCAM Messages History" color="#8cb6ce" meeting="false" start="2022-11-21" duration="30" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Pre-Dissertation writing and defense" color="#8cb6ce" meeting="false" start="2022-12-15" duration="28" complete="0" thirdDate="2022-12-15" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="SNVSM and Boat integration" color="#8cb6ce" meeting="false" start="2023-01-24" duration="45" complete="0" thirdDate="2023-02-02" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="EV Charging (ETSI standard + MagnumCap Connetor)" color="#8cb6ce" meeting="false" start="2023-02-15" duration="74" complete="0" thirdDate="2023-02-02" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Dissertation writing and defense" color="#8cb6ce" meeting="false" start="2023-05-15" duration="48" complete="0" thirdDate="2023-05-15" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
