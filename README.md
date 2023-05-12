@@ -7,6 +7,23 @@ This repo contains all the documents related to the making of my master thesis.
 January 20 marks the deadline deadline for the pre-dissertation.
 With it the first 2 chapters should be "ready" and a gantt diagram was built about the work that has and will be done in generic topics:
 ![Work](./Projected_work.png)
+# Simple explanation about the packages involved:
+## it2s-mobile-app
+Private Repository on the IT's gitlab.
+This is the mobile app that is being developed for the project. Done using Expo and React Native.
+Using react-native-maps for the map, react-native-paho-mqtt for the mqtt client and expo-sensors for the sensors. I created the PR for the expo-sensors to add the light sensor implementation on android [here]( https://github.com/expo/expo/pull/18225 ). Added on sdk 47!
+This is the main project I'm working on and we have written a [paper](https://www.mdpi.com/1424-8220/23/3/1724) about it.
+## it2s-json-broker
+Private Repository on the IT's gitlab.
+Program written in C with multithreading that acts as a compiler that subscribes, using a toml config file, to an mqtt broker and receives messages that are then translated from uper/xml to json publishing them to another topic.
+## it2s-tms
+This repository is no longer mantained by me and corresponds to this [site](https://ccam.av.it.pt). It was created by two colleagues at IT and is private. It is a web app that uses the json broker to display the messages on a map. It is also used to send messages to the broker.
+
+# ITS stations
+ITS stands for Intelligent transport systems and examples of stations are RSU (road side units) and OBUs (on board units) which are present in vehicles.
+A lot of work was done on the stack integrating the EV charging messages and logic specified by etsi. Mainly on the facilities layer which corresponds to the layer 5, 6 and 7 and provides its applications with shared data and access to common functionalities. See the image of the its station architecture below:
+
+![ITS station architecture](./itss_arch.drawio.png)
 
 # Work reported:
 Note that the work reported here is not the same as the one reported on the pre-dissertation. From then on the work report was done directly to my supervisor and not to the university and so is not present from December on.
@@ -55,21 +72,3 @@ it2s-mobile-app:
 
 it2s-tms:
 - Código adaptado para receber e usar o novo formato imposto pelo jer_encoder
-
-# Simple explanation about the packages involved:
-## it2s-mobile-app
-Private Repository on the IT's gitlab.
-This is the mobile app that is being developed for the project. Done using Expo and React Native.
-Using react-native-maps for the map, react-native-paho-mqtt for the mqtt client and expo-sensors for the sensors. I created the PR for the expo-sensors to add the light sensor implementation on android [here]( https://github.com/expo/expo/pull/18225 ). Added on sdk 47!
-This is the main project I'm working on and we have written a [paper](https://www.mdpi.com/1424-8220/23/3/1724) about it.
-## it2s-json-broker
-Private Repository on the IT's gitlab.
-Program written in C with multithreading that acts as a compiler that subscribes, using a toml config file, to an mqtt broker and receives messages that are then translated from uper/xml to json publishing them to another topic.
-## it2s-tms
-This repository is no longer mantained by me and corresponds to this [site](https://ccam.av.it.pt). It was created by two colleagues at IT and is private. It is a web app that uses the json broker to display the messages on a map. It is also used to send messages to the broker.
-
-# ITS stations
-ITS stands for Intelligent transport systems and examples of stations are RSU (road side units) and OBUs (on board units) which are present in vehicles.
-A lot of work was done on the stack integrating the EV charging messages and logic specified by etsi. Mainly on the facilities layer which corresponds to the layer 5, 6 and 7 and provides its applications with shared data and access to common functionalities. See the image of the its station architecture below:
-
-![ITS station architecture](./itss_arch.drawio.png)
