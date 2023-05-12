@@ -21,7 +21,7 @@ This repository is no longer mantained by me and corresponds to this [site](http
 
 # ITS stations
 ITS stands for Intelligent transport systems and examples of stations are RSU (road side units) and OBUs (on board units) which are present in vehicles.
-A lot of work was done on the stack integrating the EV charging messages and logic specified by etsi. Mainly on the facilities layer which corresponds to the layer 5, 6 and 7 and provides its applications with shared data and access to common functionalities. See the image of the its station architecture below:
+A lot of work was done on the stack integrating the EV charging and sensor messages and logic specified by etsi. Mainly on the facilities layer which corresponds to the layer 5, 6 and 7 and provides its applications with shared data and access to common functionalities. See the image of the its station architecture below:
 
 ![ITS station architecture](./itss_arch.drawio.png)
 
