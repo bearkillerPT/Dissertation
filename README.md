@@ -1,23 +1,28 @@
 # Dissertation
-This repo contains all the documents related to the making of my master thesis.
+This repo contains all the documents related to the making of my master thesis. The dissertation was defended on 12/07/2024 and got a grade of 18/20.
 
 [See on Overleaf](https://www.overleaf.com/read/kgnwtrzpwtpt)
 
 # Pre-Dissertation
-January 20 marks the deadline deadline for the pre-dissertation.
-With it the first 2 chapters should be "ready" and a gantt diagram was built about the work that has and will be done in generic topics:
+January 20 marks the deadline for the pre-dissertation.
+With it the first 2 chapters should be "ready" and a gantt diagram was built to try to predict the work that needs to be done using broad topics:
 ![Work](./Projected_work.png)
-# Simple explanation about the packages involved:
+
+# Simple explanation about some of the programs involved:
 ## it2s-mobile-app
-Private Repository on the IT's gitlab.
-This is the mobile app that is being developed for the project. Done using Expo and React Native.
-Using react-native-maps for the map, react-native-paho-mqtt for the mqtt client and expo-sensors for the sensors. I created the PR for the expo-sensors to add the light sensor implementation on android [here]( https://github.com/expo/expo/pull/18225 ). Added on sdk 47!
-This is the main project I'm working on and we have written a [paper](https://www.mdpi.com/1424-8220/23/3/1724) about it.
+Private Repository on the  gitlab of the Telecommunications Institute of Aveiro. This is the mobile app that is being developed for the project. Done using Expo and React Native.
+I used react-native-maps with Google Maps, react-native-paho-mqtt for the websocket MQTT client and expo-sensors for sensor data collection.
+
+### Contributions
+- I contributed with a [PR]( https://github.com/expo/expo/pull/18225 ) to expo-sensors that adds the light sensor implementation on android which was integrated into Expo on sdk 47!
+- At Telecommunications Institute we've published a [journal paper](https://www.mdpi.com/1424-8220/23/3/1724) that was choosen as an Editor's Choice Article by the Sensor editors at MDPI.
+
 ## it2s-json-broker
 Private Repository on the IT's gitlab.
-Program written in C with multithreading that acts as a compiler that subscribes, using a toml config file, to an mqtt broker and receives messages that are then translated from uper/xml to json publishing them to another topic.
+Program written in C with multithreading that acts as a compiler. The program connects to an MQTT broker and subscribes and publishes the translated messages, configurable using a toml file. It receives messages that are then translated from UPER/XML to JSON.
+
 ## it2s-tms
-This repository is no longer mantained by me and corresponds to this [site](https://ccam.av.it.pt). It was created by two colleagues at IT and is private. It is a web app that uses the json broker to display the messages on a map. It is also used to send messages to the broker.
+This repository is no longer mantained by me and corresponds to this [website](https://ccam.av.it.pt). It was created by two colleagues at IT and is a React app that also, like the mobile application, uses the json broker to display the message contents on a map. It is also used to send messages, such as road and weather events, to the broker.
 
 # ITS stations
 ITS stands for Intelligent transport systems and examples of stations are RSU (road side units) and OBUs (on board units) which are present in vehicles.
